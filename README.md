@@ -106,4 +106,5 @@ This project is optimized for:
 ✅ Interview-ready demonstration
 
 [https://github.com/Yaswanth-3107/knowledge-bot/blob/main/Screenshot%202025-11-09%20235549.png]
+https://github.com/Yaswanth-3107/knowledge-bot/blob/main/Screenshot%202025-11-09%20235100.png
 
