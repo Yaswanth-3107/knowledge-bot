@@ -1,0 +1,24 @@
+python-dotenv>=1.0
+streamlit>=1.39
+
+# LangChain family (keep within 0.2.x to avoid breaking APIs)
+langchain>=0.2,<0.3
+langchain-community>=0.2,<0.3
+langchain-openai>=0.1,<0.2
+langchain-groq>=0.1
+
+# Search tools
+duckduckgo-search>=8.0   # works with langchain_community DuckDuckGo wrapper
+
+wikipedia>=1.4
+
+# Optional: SerpAPI
+google-search-results>=2.4
+
+# Persistence + API (optional but useful)
+SQLAlchemy>=2.0
+fastapi>=0.115
+uvicorn>=0.30
+
+
+
