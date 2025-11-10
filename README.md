@@ -14,11 +14,7 @@ It combines:
 
 ---
 
-## 📸 Architecture
 
-<p align="center">
-  <img src="https://github.com/Yaswanth-3107/knowledge-bot/blob/main/architecture.png" width="80%" />
-</p>
 
 
 
