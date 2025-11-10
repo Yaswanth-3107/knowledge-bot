@@ -14,26 +14,13 @@ It combines:
 
 ---
 
-## 📸 Screenshots
+## 📸 Architecture
 
 <p align="center">
   <img src="https://github.com/Yaswanth-3107/knowledge-bot/blob/main/architecture.png" width="80%" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235549.png" width="80%" />
-</p>
 
-
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235100.png" width="80%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-10%20000353.png" width="80%" />
-</p>
 
 ---
 
@@ -65,6 +52,23 @@ It combines:
 ## 🏗️ System Architecture
 
 User → Streamlit → ReAct Agent → Tools → Groq LLM → Output
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235100.png" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235549.png" width="80%" />
+</p>
+
+
+
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-10%20000353.png" width="80%" />
+</p>
 
 ---
 
