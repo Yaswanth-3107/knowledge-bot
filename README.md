@@ -1,112 +1,136 @@
-# knowledge-
+# 🚀 Conversational Knowledge Bot  
+### LangChain + Groq + Wikipedia + DuckDuckGo + SerpAPI + Memory + Streamlit
 
-# Conversational Knowledge Bot  
-LangChain + Groq + Streamlit + Wikipedia + SerpAPI + DuckDuckGo + Memory
+A blazing-fast, multi-tool conversational knowledge assistant built for real-world productivity, AI agent workflows, and interview-ready demos.
 
-(This README was generated for you. Everything is included: setup, install, flowchart, troubleshooting.)
-
----
-
-## ✅ Overview
-This project implements a conversational knowledge assistant with:
-
-- Conversational memory  
-- ReAct agent  
-- Wikipedia search  
-- DuckDuckGo search  
-- SerpAPI (optional)  
-- Groq LLaMA backend (fast + free + no VRAM needed)  
-- Streamlit chat UI  
-- Persistent sessions  
+It combines:  
+✅ LLM reasoning (ReAct)  
+✅ Search tools  
+✅ Wikipedia  
+✅ Persistent memory  
+✅ Session management  
+✅ Groq ultra-fast inference  
+✅ Streamlit chat interface  
 
 ---
 
-## ✅ Requirements
+## 📸 Screenshots
 
-- Python 3.10 or 3.11  
-- pip  
-- Groq API key  
-- SerpAPI key (optional)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235549.png" width="80%" />
+</p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235100.png" width="80%" />
+</p>
 
-## ✅ Installation
-
-```
-python -m venv .venv
-.\.venv\Scripts\Activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-10%20000353.png" width="80%" />
+</p>
 
 ---
 
-## ✅ .env Setup
+## ✅ Features
 
-```
-APP_MODE=streamlit
+- 🧠 **Conversational Memory**  
+  Remembers discussion context across multiple turns and sessions.
 
-MODEL_BACKEND=groq
-GROQ_API_KEY=PUT_YOUR_GROQ_API_KEY_HERE
-GROQ_MODEL=llama-3.1-8b-instant
+- 🔍 **Multi-Tool Search System**  
+  Wikipedia + DuckDuckGo + SerpAPI for deep, multi-source knowledge retrieval.
 
-USE_SERPAPI=true
-SERPAPI_API_KEY=PUT_YOUR_SERPAPI_KEY_HERE
+- 🤖 **ReAct Agent Architecture**  
+  Enables reasoning + tool calling for accurate answers.
 
-MEMORY_BACKEND=file
-DEFAULT_SESSION_ID=default
-SQLITE_PATH=data/memory.sqlite
-```
+- ⚡ **Groq-powered LLaMA 3.1 (8B Instant)**  
+  Ultra-fast inference, zero GPU required.
 
----
+- 🖥️ **Streamlit Chat UI**  
+  Clean, simple, real-time web interface.
 
-## ✅ Run the App
+- 📂 **File-based or SQLite Memory**  
+  Works on all systems without complex setup.
 
-```
-streamlit run app_streamlit.py
-```
+- ✅ **Interview-Ready Project**  
+  Perfect for showcasing agent design + tool integration.
 
 ---
 
-## ✅ Architecture Flowchart (ASCII)
+## 🏗️ System Architecture
 
-User → Streamlit UI → LangChain Agent → Tools (Wikipedia, DuckDuckGo, SerpAPI) → Groq LLM → Streamlit output
-
----
-
-## ✅ Troubleshooting
-
-- Import errors → use correct `app_core.py`
-- OpenAI rate limits → switch to Groq (MODEL_BACKEND=groq)
-- Ollama memory errors → don’t use Ollama on low-RAM systems
-- SerpAPI empty → add SERPAPI_API_KEY
+User → Streamlit → ReAct Agent → Tools → Groq LLM → Output
 
 ---
 
-## ✅ Folder Structure
+## 📁 Project Structure
 
-```
-project/
+knowledge-bot/
 │ app_core.py
 │ app_streamlit.py
 │ requirements.txt
 │ .env
 │ README.md
 │ data/
-```
+      memory.sqlite
 
 ---
 
-## ✅ Notes
+## ⚙️ Requirements
 
-This project is optimized for:
-✅ Zero GPU machines  
-✅ Fast inference  
-✅ Minimal errors  
-✅ Interview-ready demonstration
+- Python 3.10 or 3.11  
+- Groq API Key  
+- SerpAPI Key (optional)  
+- Streamlit  
+- LangChain 0.2+  
 
-[https://github.com/Yaswanth-3107/knowledge-bot/blob/main/Screenshot%202025-11-09%20235549.png]
-[https://github.com/Yaswanth-3107/knowledge-bot/blob/main/Screenshot%202025-11-09%20235100.png]
+---
 
-[https://github.com/Yaswanth-3107/knowledge-bot/blob/main/Screenshot%202025-11-10%20000353.png]
+## 📦 Installation
 
+python -m venv .venv
+.\.venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+---
+
+## 🔐 .env Setup
+
+APP_MODE=streamlit
+MODEL_BACKEND=groq
+GROQ_API_KEY=PUT_YOUR_GROQ_API_KEY_HERE
+GROQ_MODEL=llama-3.1-8b-instant
+USE_SERPAPI=true
+SERPAPI_API_KEY=PUT_YOUR_SERPAPI_KEY_HERE
+MEMORY_BACKEND=file
+DEFAULT_SESSION_ID=default
+SQLITE_PATH=data/memory.sqlite
+
+---
+
+## ▶️ Run the App
+
+streamlit run app_streamlit.py
+
+---
+
+## ✅ Why This Project Stands Out
+
+- Real agent system  
+- Multi-search integration  
+- Persistent memory  
+- Extremely fast  
+- Clean UI  
+- Production-ready demo  
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 🙌 Author
+
+Yaswanth  
+Open-source builder and AI systems enthusiast.
