@@ -92,10 +92,10 @@ pip install -r requirements.txt
 
 - APP_MODE=streamlit
 - MODEL_BACKEND=groq
-- GROQ_API_KEY=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
+- GROQ_API_KEY= Your_groq_key
 - GROQ_MODEL=llama-3.1-8b-instant
 - USE_SERPAPI=true
-- SERPAPI_API_KEY=2882a1496509b001a2052523ffddee2f38fb16a2e7a752bfad9d6bd8284d4046
+- SERPAPI_API_KEY= Your_Serp_key
 - MEMORY_BACKEND=file
 - DEFAULT_SESSION_ID=default
 - SQLITE_PATH=data/memory.sqlite
