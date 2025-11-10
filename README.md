@@ -54,21 +54,9 @@ It combines:
 User → Streamlit → ReAct Agent → Tools → Groq LLM → Output
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235100.png" width="80%" />
+  <img src="https://github.com/Yaswanth-3107/knowledge-bot/blob/main/architecture.png" width="80%" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235549.png" width="80%" />
-</p>
-
-
-
-
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-10%20000353.png" width="80%" />
-</p>
 
 ---
 
@@ -108,10 +96,10 @@ pip install -r requirements.txt
 
 APP_MODE=streamlit
 MODEL_BACKEND=groq
-GROQ_API_KEY=PUT_YOUR_GROQ_API_KEY_HERE
+GROQ_API_KEY=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
 GROQ_MODEL=llama-3.1-8b-instant
 USE_SERPAPI=true
-SERPAPI_API_KEY=PUT_YOUR_SERPAPI_KEY_HERE
+SERPAPI_API_KEY=2882a1496509b001a2052523ffddee2f38fb16a2e7a752bfad9d6bd8284d4046
 MEMORY_BACKEND=file
 DEFAULT_SESSION_ID=default
 SQLITE_PATH=data/memory.sqlite
@@ -121,6 +109,21 @@ SQLITE_PATH=data/memory.sqlite
 ## ▶️ Run the App
 
 streamlit run app_streamlit.py
+
+##  Screenshots of chat
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235100.png" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-09%20235549.png" width="80%" />
+</p>
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yaswanth-3107/knowledge-bot/main/Screenshot%202025-11-10%20000353.png" width="80%" />
+</p>
+
 
 ---
 
